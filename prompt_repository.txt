@@ -1,0 +1,19 @@
+PROMPT
+Provide a JSON object formatted in the same way as the below schema with the required connection configurations for connection to a DATABASE NAME database. Return only the JSON output, enclosed in ```. The schema is as follows:
+JSON SCHEMA HERE
+
+PROMPT
+Provide a JSON object with the required connection configurations for connecting to a DATABASE NAME database. The two requiredfields are database_type and config. config must include the following fields: host, port, username, password, database, driver, ssl. There can be other optional fields in config section that are required for connecting to DATABASE NAME. Return only the JSON output, enclosed in ```.
+
+PROMPT
+Provide a JSON object containing the connection settings for a DATABASE NAME database. Include the database type and a configuration section with details like server address, port number, username, password, database name, driver, SSL settings, warehouse, schema, and role. Return only the JSON output, enclosed in ```.
+
+PROMPT
+I’m setting up a data pipeline that requires connection details for a DATABASE NAME database. Generate a JSON formatted configuration with the database type and all necessary connection parameters, including server, port, credentials, database name, security settings, and DATABASE NAME-specific options like warehouse and role. Output only the JSON, delimited by ```.
+
+PROMPT
+Create a JSON configuration for connecting to a DATABASE NAME database. Format it with a top-level field for the database type and a nested config section for connection details, such as the server address, port, user credentials, database name, whether to use SSL, and specific settings like warehouse and schema. Return only the JSON, surrounded by ```.
+
+PROMPT
+I need a JSON formatted response with the connection settings for a DATABASE NAME database. Include the database type and a configuration object with server location, port, login details, target database, SSL usage, and additional settings specific to DATABASE NAME like warehouse and role names. Return just the JSON, delimited by ```.
+

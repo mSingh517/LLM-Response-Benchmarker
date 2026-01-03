@@ -1,0 +1,8 @@
+jsonschema~=4.22.0
+openai~=0.27.10
+anthropic~=0.50.0
+google~=3.0.0
+mistralai~=1.7.0
+pandas~=2.2.3
+typer~=0.15.3
+rich~=14.0.0
