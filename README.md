@@ -12,4 +12,4 @@ In addition to generation, the tool includes a robust **benchmarking engine** th
 * **Standardized Schema:** Enforces a strict JSON schema for 7 major databases: PostgreSQL, MySQL, SQL Server, MongoDB, Snowflake, BigQuery, and Oracle.
 * **Prompt Benchmarking:** Evaluates prompts based on a validity score (0-100), penalizing schema violations and error depth.
 * **Model Benchmarking:** Calculates Precision, Recall, and F1-Scores for each LLM to measure reliability and accuracy.
-* **Rich CLI:** Built with `Typer` and `Rich` for beautiful, interactive terminal output and data visualization.
+* **Rich CLI:** Built with `Typer` and `Rich` for interactive terminal output and data visualization.
